@@ -1,0 +1,48 @@
+body{
+  background-color: lightcyan;
+}
+.App {
+  text-align: center;
+}
+.header{
+  background-color: lightskyblue;
+  padding: 10px;
+}
+.contenedor{
+  background-color: lightblue;
+  margin: 30px;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  border-radius: 10px;
+  display:flex;
+  flex-direction: column;
+}
+.buton{
+  width: 100px;
+  margin: 5px;
+}
+.input{
+  height: 35px;
+}
+.list-group-item{
+  width: auto;
+  max-width: 98%;
+  margin: 1%;
+  display:flex;
+  justify-content: space-between;
+  font-size: 20px;
+  align-items: center;
+}
+.complete{
+  text-decoration: line-through;
+  color: gray;
+}
+.incomplete{
+  text-decoration: none;
+}
+.list-group{
+  width: 100%;
+  display: inline-block;
+  word-break: break-word;
+}
